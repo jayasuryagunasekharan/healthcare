@@ -59,7 +59,7 @@ export default function Page() {
                 if (!res.ok) {
                   throw new Error("Sentry Example Frontend Error");
                 }
-              }
+              },
             );
           }}
         >
@@ -68,7 +68,7 @@ export default function Page() {
 
         <p>
           Next, look for the error on the{" "}
-          <a href="https://javascript-mastery.sentry.io/issues/?project=4507458386526208">
+          <a href="https://sentry.io/organizations/jayasurya-projects/issues/?project=4507972952391680">
             Issues Page
           </a>
           .
